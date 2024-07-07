@@ -25,15 +25,16 @@ const projectsData = [
     gitUrl: "https://github.com/mannyamm21/Meal_It_Mern",
     previewUrl: "https://meal-it-mernstack.onrender.com/",
   },
-  // {
-  //   id: 3,
-  //   title: "E-commerce Application",
-  //   description: "Project 3 description",
-  //   image: "/images/projects/3.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 3,
+    title: "Blog Page",
+    description:
+      "A stylish blog site powered by cutting-edge technologies. Leveraging Vite React, Tailwind CSS, and Appwrite, this project showcases seamless content management, intuitive user experience, and robust performance.",
+    image: "/images/projects/blog_page.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mannyamm21/BlogPage",
+    previewUrl: "https://mac-blog-page.netlify.app/",
+  },
   {
     id: 4,
     title: "The News",
