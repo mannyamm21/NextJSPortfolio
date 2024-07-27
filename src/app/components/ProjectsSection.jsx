@@ -6,6 +6,16 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 6,
+    title: "VideoFusion",
+    description:
+      "Developed VideoFusion using React and Node.js, optimizing performance and implementing a recommendation algorithm. Utilized Firebase for storage, added email functionality, and integrated Cloudinary for images, boosting engagement and retention.",
+    image: "/images/projects/VideoFusion.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mannyamm21/VideoFusionWebo",
+    previewUrl: "https://videofusion.onrender.com/",
+  },
+  {
     id: 1,
     title: "Momento",
     description:
@@ -54,16 +64,6 @@ const projectsData = [
     tag: ["All", "App"],
     gitUrl: "https://github.com/mannyamm21/ReactPortfolio",
     previewUrl: "https://github.com/mannyamm21/ReactPortfolio",
-  },
-  {
-    id: 6,
-    title: "VideoFusion",
-    description:
-      "Developed VideoFusion using React and Node.js, optimizing performance and implementing a recommendation algorithm. Utilized Firebase for storage, added email functionality, and integrated Cloudinary for images, boosting engagement and retention.",
-    image: "/images/projects/VideoFusion.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
   },
 ];
 
